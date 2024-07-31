@@ -13,6 +13,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/bin/test-nusensors:$(TARGET_COPY_OUT_ODM)/bin/test-nusensors \
     vendor/xiaomi/peridot/proprietary/odm/etc/MESubway_prebuilt.db:$(TARGET_COPY_OUT_ODM)/etc/MESubway_prebuilt.db \
     vendor/xiaomi/peridot/proprietary/odm/etc/acdbdata/cliffs_mtp/Fluence_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/cliffs_mtp/Fluence_acdb_cal.acdb \
+    vendor/xiaomi/peridot/proprietary/odm/etc/acdbdata/cliffs_mtp/foursemi/Fluence_acdb_cal_fs.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/cliffs_mtp/foursemi/Fluence_acdb_cal_fs.acdb \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/mis_head.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head.bin \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/mis_head_spatial.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head_spatial.bin \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/mis_spk.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_spk.bin \
@@ -27,6 +28,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/misound_res_spk_power_video_powersave.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk_power_video_powersave.bin \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/misoundsa_spk_config.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misoundsa_spk_config.bin \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/adsp_sleep_monitor.conf:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/adsp_sleep_monitor.conf \
+    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/foursemi/mixer_paths_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/foursemi/mixer_paths_cliffs_mtp.xml \
+    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/foursemi/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/foursemi/mixer_paths_overlay_dynamic.xml \
+    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/foursemi/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/foursemi/mixer_paths_overlay_static.xml \
+    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/foursemi/resourcemanager_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/foursemi/resourcemanager_cliffs_mtp.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml \
@@ -738,6 +743,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/firmware/evass.mbn:$(TARGET_COPY_OUT_ODM)/firmware/evass.mbn \
     vendor/xiaomi/peridot/proprietary/odm/firmware/evass.mdt:$(TARGET_COPY_OUT_ODM)/firmware/evass.mdt \
     vendor/xiaomi/peridot/proprietary/odm/firmware/focaltech_ts_fw_TianMa.bin:$(TARGET_COPY_OUT_ODM)/firmware/focaltech_ts_fw_TianMa.bin \
+    vendor/xiaomi/peridot/proprietary/odm/firmware/fs19xx.fsm:$(TARGET_COPY_OUT_ODM)/firmware/fs19xx.fsm \
     vendor/xiaomi/peridot/proprietary/odm/firmware/gen70900_zap.mbn:$(TARGET_COPY_OUT_ODM)/firmware/gen70900_zap.mbn \
     vendor/xiaomi/peridot/proprietary/odm/firmware/gen71100_zap.mbn:$(TARGET_COPY_OUT_ODM)/firmware/gen71100_zap.mbn \
     vendor/xiaomi/peridot/proprietary/odm/firmware/goodix_cfg_group_peridot_csot.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_cfg_group_peridot_csot.bin \
@@ -866,6 +872,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libeyecare.so:$(TARGET_COPY_OUT_ODM)/lib64/libeyecare.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libflatmode.so:$(TARGET_COPY_OUT_ODM)/lib64/libflatmode.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libfpsmonitor.so:$(TARGET_COPY_OUT_ODM)/lib64/libfpsmonitor.so \
+    vendor/xiaomi/peridot/proprietary/odm/lib64/libfsalgocal.so:$(TARGET_COPY_OUT_ODM)/lib64/libfsalgocal.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libgf_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libhistprocess.so:$(TARGET_COPY_OUT_ODM)/lib64/libhistprocess.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/liblocalFlickerDet.so:$(TARGET_COPY_OUT_ODM)/lib64/liblocalFlickerDet.so \
