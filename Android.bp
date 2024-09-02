@@ -1013,6 +1013,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "vendor.xiaomi.hardware.vibratorfeature.service.xml",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.qti.qesdsys.service.xml",
 	owner: "xiaomi",
 	src: "proprietary/system_ext/etc/vintf/manifest/vendor.qti.qesdsys.service.xml",
