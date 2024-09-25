@@ -1977,6 +1977,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libcommonchiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcommonchiutils.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libcustomva_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustomva_intf.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libcv_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcv_common.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
