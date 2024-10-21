@@ -66,3 +66,4 @@ connect: 1
 ppoll: 1
 clock_gettime: 1
 setpriority: 1
+gettid: 1

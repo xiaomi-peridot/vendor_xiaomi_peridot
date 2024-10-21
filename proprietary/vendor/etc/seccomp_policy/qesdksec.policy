@@ -58,6 +58,7 @@ ioctl: 1
 recvfrom: 1
 nanosleep: 1
 getsockopt: 1
+gettid: 1
 
 # added for netlink
 setsockopt: 1
