@@ -105,9 +105,6 @@
 -->
 
 <MediaCodecs>
-    <Include href="media_codecs_google_audio.xml" />
-    <Include href="media_codecs_vendor_audio.xml" />
-    <Include href="media_codecs_google_telephony.xml" />
     <Include href="media_codecs_c2_audio.xml" />
     <Include href="media_codecs_dolby_audio.xml" />
     <Settings>
@@ -438,5 +435,4 @@
             <Limit name="performance-point-1920x1080" value="6" />
         </MediaCodec>
     </Encoders>
-    <Include href="media_codecs_google_c2.xml" />
 </MediaCodecs>
