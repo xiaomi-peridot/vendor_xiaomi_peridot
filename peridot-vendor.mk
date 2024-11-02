@@ -1170,6 +1170,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libITT.so:$(TARGET_COPY_OUT_ODM)/lib64/libITT.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libMiDispDevManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiDispDevManager.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libMiMotion.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiMotion.so \
+    vendor/xiaomi/peridot/proprietary/odm/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libMiVideoFilter.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiVideoFilter.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_ODM)/lib64/libPlatformValidatorShared.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libQnnChrometraceProfilingReader.so:$(TARGET_COPY_OUT_ODM)/lib64/libQnnChrometraceProfilingReader.so \
@@ -1301,6 +1302,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiBrightness.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiBrightness.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiClstc.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiClstc.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiSensorCtrl.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiSensorCtrl.so \
+    vendor/xiaomi/peridot/proprietary/odm/lib64/libmiStereoCalibLib_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiStereoCalibLib_qual.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiXmlParser.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiXmlParser.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmi_dspp.so:$(TARGET_COPY_OUT_ODM)/lib64/libmi_dspp.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiai_deblur.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiai_deblur.so \
