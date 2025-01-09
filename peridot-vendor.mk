@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/adsp_sleep_monitor.conf:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/adsp_sleep_monitor.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_static.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_configuration.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_default_stream_volumes.xml \
@@ -1330,8 +1329,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/media_codecs_cliffs_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cliffs_v0.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/media_codecs_performance_cliffs_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cliffs_v0.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
@@ -2668,6 +2665,7 @@ PRODUCT_PACKAGES += \
     QFingerprintService \
     TimeService \
     uimgbaservice \
+    AtFwd2 \
     ImsRcsService \
     QesdkSysService \
     QtiTelephony \
