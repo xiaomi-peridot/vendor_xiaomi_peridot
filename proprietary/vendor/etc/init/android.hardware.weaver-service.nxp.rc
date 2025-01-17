@@ -1,4 +1,0 @@
-service vendor.weaver_nxp /vendor/bin/hw/android.hardware.weaver-service.nxp-qti
-    class hal
-    user vendor_nxp_weaver
-    group system drmrpc
