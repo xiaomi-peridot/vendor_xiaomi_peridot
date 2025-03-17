@@ -5,6 +5,8 @@
 on post-fs-data
     mkdir /data/vendor/mqsas_common 0771 system system
     mkdir /data/vendor/touch 0771 system system
+    mkdir /data/vendor/touch_state 0771 system system
+    mkdir /mnt/vendor/persist/touch 0775 system system
 on boot
     chown system system /dev/xiaomi-touch
     chmod 0666 /dev/xiaomi-touch
@@ -131,3 +133,8 @@ service panel-info-sh /system/vendor/bin/sh /odm/etc/init.panel_info.sh
     group root system
     seclabel u:r:vendor_touch_init_shell:s0
 
+service touch-kmsg-init-sh /system/vendor/bin/sh /odm/etc/tp_kmsg_init.sh
+    class main
+    group root system
+    oneshot
+    seclabel u:r:vendor_touch_init_shell:s0

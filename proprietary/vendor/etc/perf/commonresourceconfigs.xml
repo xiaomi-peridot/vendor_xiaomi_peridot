@@ -355,6 +355,9 @@ need to be added just before the end of it's major group. -->
         <Minor OpcodeValue="0xB" Node="/dev/cpuctl/background/cpu.shares" />
         <Minor OpcodeValue="0xC" Node="/proc/sys/walt/sched_idle_enough_clust" />
         <Minor OpcodeValue="0xD" Node="/proc/sys/walt/sched_cluster_util_thres_pct_clust" />
+<!-- MIUI ADD: Camera_Perflock -->
+        <Minor OpcodeValue="0xE" Node="/dev/cpuctl/camera-daemon/cpu.uclamp.min" />
+<!-- END Camera_Perflock -->
 
     <!-- sched2 major end -->
     <!--Add new resource expected value and write value in configs/test/common/perfcommonresourceconfigs.xml

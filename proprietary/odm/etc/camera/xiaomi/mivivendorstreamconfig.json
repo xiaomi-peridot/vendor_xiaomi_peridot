@@ -208,7 +208,7 @@
                 "LensFacing": 0,
                 "Signature": "RearSuperNight",
                 "BufferLimitCnt": 13,
-                "VendorSnapshotBufferQueueSize": [31, 37],
+                "VendorSnapshotBufferQueueSize": 31,
                 "FlushWaitTimeMs": [700, 4000],
                 // 0001 0000 0010, 0x102, HDR 0x10, RawHDR 0x80, vendorMfnr/sn/hdr/rawhdr
                 "FeatureMask" : 402,

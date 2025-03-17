@@ -42,3 +42,5 @@ on property:persist.vendor.radio.diag_log_trriger=sensor
 on property:persist.vendor.radio.close_wenkong=yes
     stop mi_thermald
 
+on property:ro.vendor.oem.ctacode=*
+    setprop ro.ril.oem.ctacode ${ro.vendor.oem.ctacode}

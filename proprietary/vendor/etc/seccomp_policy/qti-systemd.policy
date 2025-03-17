@@ -32,6 +32,7 @@ readlinkat: 1
 newfstatat: 1
 mremap: 1
 fstatfs: 1
+fstatfs64: 1
 pread64: 1
 rt_sigprocmask: 1
 rt_sigaction: 1

@@ -150,6 +150,7 @@ on boot
     chown system system /sys/bus/coresight/devices/coresight-swao-csr/timestamp
     chmod 660 /sys/bus/coresight/devices/coresight-swao-csr/timestamp
     write /sys/bus/coresight/devices/coresight-stm/traceid 0x10
+    setprop persist.logd.diag.newlocation 1
 
 #avoid the fifo error
 on early-boot && property:persist.logd.diag.bootup=* && property:persist.logd.diag.modemlog=*

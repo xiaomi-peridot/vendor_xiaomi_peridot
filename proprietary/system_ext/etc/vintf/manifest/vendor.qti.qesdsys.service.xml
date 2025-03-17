@@ -1,4 +1,8 @@
-<manifest version="1.0" type="framework">
+<!--
+    Input:
+        vendor/qcom/proprietary/commonsys/qesdk-noship/qesdk_system_service/vendor.qti.qesdsys.service.xml
+-->
+<manifest version="8.0" type="framework">
     <hal format="aidl">
         <name>vendor.qti.qesdsys</name>
         <fqname>IQesdSys/default</fqname>

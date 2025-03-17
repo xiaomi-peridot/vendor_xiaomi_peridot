@@ -171,7 +171,7 @@
                              "data": "1.0"
                            },
         "fifo_threshold":{ "type": "flt", "ver": "0",
-                           "data": "64.0"
+                           "data": "32.0"
                          }
       },
       ".cal_target":

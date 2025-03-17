@@ -118,17 +118,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "QFingerprintService",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/QFingerprintService/QFingerprintService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "TimeService",
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
@@ -184,9 +173,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "QtiTelephony",
+	name: "QtiTelephonyService",
 	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/QtiTelephony/QtiTelephony.apk",
+	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -195,13 +184,14 @@ android_app_import {
 }
 
 android_app_import {
-	name: "QtiTelephonyService",
+	name: "QtiTelephony",
 	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+	apk: "proprietary/system_ext/priv-app/QtiTelephony/QtiTelephony.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
+	privileged: true,
 	system_ext_specific: true,
 }
 
@@ -403,15 +393,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "AHBF-V3-service.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/AHBF-V3-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "ImsRtpService-aidl.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/ImsRtpService-aidl.xml",
@@ -424,15 +405,6 @@ prebuilt_etc_xml {
 	name: "android.hardware.drm_wfdhdcp-service.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.drm_wfdhdcp-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.gnss-aidl-service-qti.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -637,15 +609,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "fod-aidl.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/fod-aidl.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "imsdcservice-saidl.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/imsdcservice-saidl.xml",
@@ -727,45 +690,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.camera.offlinecamera-impl.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.offlinecamera-impl.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.qti.camera.postproc-impl.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.qti.camera.provider.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.provider.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.qti.diag.hal.service.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.qti.gnss-service.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -988,24 +915,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.xiaomi.camera.aon-impl.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.camera.aon-impl.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.xiaomi.hardware.aidlbgservice-service.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.aidlbgservice-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.xiaomi.hardware.displayfeature_aidl-service.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.displayfeature_aidl-service.xml",
@@ -1042,9 +951,72 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "android.hardware.gnss-aidl-service-qti.xml",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "manifest_vendor.xiaomi.hardware.mlipay.xml",
 	owner: "xiaomi",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.camera.offlinecamera-impl.xml",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest/vendor.qti.camera.offlinecamera-impl.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.camera.postproc-impl.xml",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.camera.provider.xml",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest/vendor.qti.camera.provider.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.gnss-service.xml",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest/vendor.qti.gnss-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.xiaomi.camera.aon-impl.xml",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest/vendor.xiaomi.camera.aon-impl.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.xiaomi.hardware.aidlbgservice-service.xml",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest/vendor.xiaomi.hardware.aidlbgservice-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	device_specific: true,

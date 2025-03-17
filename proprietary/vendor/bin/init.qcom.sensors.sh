@@ -31,3 +31,6 @@
 #
 cp /vendor/etc/sensors/scripts/* /data/vendor/sensors/scripts/
 chmod a+rw /data/vendor/sensors/scripts/*
+
+cp /vendor/etc/sensors/diag_cfg/* /data/vendor/sensors/diag_cfg/
+chmod a+rw /data/vendor/sensors/diag_cfg/*

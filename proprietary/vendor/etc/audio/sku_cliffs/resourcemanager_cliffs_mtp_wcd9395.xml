@@ -27,7 +27,7 @@
 * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 * Changes from Qualcomm Innovation Center are provided under the following license:
-* Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc. All rights reserved.
+* Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
 * SPDX-License-Identifier: BSD-3-Clause-Clear
 * -->
 
@@ -51,6 +51,7 @@
         <param key="haptics_priority" value ="touch_haptics" />
         <param key="haptics_through_wsa" value ="false" />
         <param key="dummy_dev_enable" value ="false" />
+        <param key="multiple_sample_rate_combo_supported" value ="true" />
     </config_params>
     <config_volume>
         <use_volume_set_param>0</use_volume_set_param>
@@ -551,6 +552,16 @@
             </usecase>
         </in-device>
         <in-device>
+            <id>PAL_DEVICE_IN_RECORD_PROXY</id>
+            <back_end_name>PCM_RT_PROXY-TX-2</back_end_name>
+            <max_channels>2</max_channels>
+            <channels>2</channels>
+            <snd_device_name>afe-proxy</snd_device_name>
+            <usecase>
+                <name>PAL_STREAM_PROXY</name>
+            </usecase>
+        </in-device>
+        <in-device>
             <id>PAL_DEVICE_IN_VI_FEEDBACK</id>
             <back_end_name>CODEC_DMA-LPAIF_WSA-TX-0</back_end_name>
             <max_channels>2</max_channels>
@@ -990,6 +1001,19 @@
         <out-device>
             <id>PAL_DEVICE_OUT_PROXY</id>
             <back_end_name>PCM_RT_PROXY-RX-1</back_end_name>
+            <max_channels>8</max_channels>
+            <channels>2</channels>
+            <snd_device_name>afe-proxy</snd_device_name>
+            <fractional_sr>0</fractional_sr>
+            <samplerate>48000</samplerate>
+            <usecase>
+                <name>PAL_STREAM_VOICE_CALL</name>
+                <priority>1</priority>
+            </usecase>
+        </out-device>
+        <out-device>
+            <id>PAL_DEVICE_OUT_RECORD_PROXY</id>
+            <back_end_name>PCM_RT_PROXY-RX-2</back_end_name>
             <max_channels>8</max_channels>
             <channels>2</channels>
             <snd_device_name>afe-proxy</snd_device_name>

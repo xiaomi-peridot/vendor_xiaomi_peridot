@@ -1,4 +1,4 @@
-# Copyright (c) 2019 Qualcomm Technologies, Inc.
+# Copyright (c) 2019, 2024 Qualcomm Technologies, Inc.
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
@@ -37,4 +37,5 @@ service vendor.sensors.qti /vendor/bin/sensors.qti
 service vendor-sensor-sh /vendor/bin/init.qcom.sensors.sh
     class late_start
     user root
+    group system
     oneshot

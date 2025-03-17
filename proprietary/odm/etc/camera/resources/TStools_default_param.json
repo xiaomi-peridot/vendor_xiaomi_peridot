@@ -57,5 +57,15 @@
             "##kParameterFlag_FacialRefine_Jaw##": "下颌程度[默认0.5]",
             "JawDegree": 0.5
         }
+    ],
+    "##CameraSimulate": "相机模拟跑图",
+    "CameraSimulate": [
+        {
+            "##note": "前置经典-拍后",
+            "Type": "Capture",
+            "RunCount": 1,
+            "ConfigPath": "truesight_config_front.json",
+            "MapParameter": [[0,1.00],[1,1.00]]
+        }
     ]
 }

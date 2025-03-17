@@ -21,6 +21,7 @@ on boot
 on post-fs-data
     chown system system /sys/class/drm/card0-DSI-1/mipi_reg
     chmod 664 /sys/class/drm/card0-DSI-1/mipi_reg
+    chmod 0666 /sys/kernel/tracing/events/sde/tracing_mark_write/enable
 
 service displayfeature /vendor/bin/displayfeature
     class late_start

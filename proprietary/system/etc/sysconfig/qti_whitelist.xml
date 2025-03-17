@@ -90,6 +90,7 @@
     <hidden-api-whitelisted-app package="com.qualcomm.qti.sva" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.smartassistant" />
     <hidden-api-whitelisted-app package="com.quicinc.voice.activation" />
+    <hidden-api-whitelisted-app package="com.qualcomm.qti.voiceai.usecase" />
     <hidden-api-whitelisted-app package="com.android.backup" />
     <hidden-api-whitelisted-app package="com.android.contacts" />
     <hidden-api-whitelisted-app package="com.android.exchange" />

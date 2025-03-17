@@ -78,6 +78,7 @@
       <VALUE val="0xa200000a" name="ULTRASOUND_RX"/>
       <VALUE val="0xa200000b" name="ULTRASOUND_RX_DEDICATED"/>
       <VALUE val="0xa200000c" name="Dummy_Rx"/>
+      <VALUE val="0xa2000400" name="SPEAKER_FACTORY"/>
       <VALUE val="0xa2000100" name="TIANTONG_RX"/>
     </KEY>
     <KEY name="DeviceTX" id="0xa3000000" description="Tx Device">
@@ -123,6 +124,8 @@
       <VALUE val="0xac000500" name="TianTongRX_RX_PP"/>
       <VALUE val="0xac000600" name="DevicePP_RX_SatelliteCall"/>
       <VALUE val="0xac000800" name="DEVICEPP_RX_VOICE_FLIP_FOLD"/>
+      <VALUE val="0xac002a00" name="Unkaraoke_Playback_Custom"/>
+      <VALUE val="0xac003001" name="Audio_MBDRC_3CH"/>
     </KEY>
     <KEY name="DevicePP_Tx" id="0xad000000" description="Tx Device Post/Pre Processing Chain">
       <VALUE val="0xad000001" name="Fluence_FFECNS"/>
@@ -188,6 +191,11 @@
       <VALUE val="0xad000d00" name="Record_Customized"/>
       <VALUE val="0xac000e00" name="DevicePP_TX_SatelliteCall"/>
       <VALUE val="0xad001000" name="Voice_Fluence_Endfire_Flip_Fold"/>
+      <VALUE val="0xad002100" name="Unkaraoke_Record_Custom"/>
+      <VALUE val="0xad002000" name="DEVICEPP_TX_VPNR"/>
+      <VALUE val="0xad003000" name="DEVICEPP_TX_VOICE_FLUENCE_SURROUND"/>
+      <VALUE val="0xad001400" name="CUSTOM_ECNS_RAW" description="Used in NLPI use-cases for VUI with custom config"/>
+      <VALUE val="0xad001500" name="CUSTOM_NS_RAW" description="Used in LPI use-cases for VUI with custom config"/>
     </KEY>
     <KEY name="StreamPP_RX" id="0xaf000000" description="Rx Stream Post/Pre Processing Chain">
       <VALUE val="0xaf000001" name="StreamPP_Rx_Default"/>
@@ -413,6 +421,13 @@
       <VALUE val="0x3" name="UL_DL_Mono"/>
       <VALUE val="0x4" name="UL_DL_Stereo"/>
     </KEY>
+    <KEY name="SP_Profile" id="0x2d0000" description="SpkrProtProfile">
+      <VALUE val="0x0" name="Normal"/>
+      <VALUE val="0x1" name="Voice"/>
+      <VALUE val="0x2" name="Bypass"/>
+      <VALUE val="0x3" name="Cinema"/>
+      <VALUE val="0x4" name="LowPower"/>
+    </KEY>
     <KEY name="SP_Dev_Map" id="0xbe000000" description="SpkrProtDevMap">
       <VALUE val="0x0" name="Disable_SP"/>
       <VALUE val="0x1" name="Right_Mono"/>
@@ -588,6 +603,10 @@
       <VALUE val="0x1" name="0x1"/>
       <VALUE val="0x0" name="0x0"/>
     </KEY>
+    <KEY name="MISOUND_FX_DMX_MODULE_SWITCH" id="0x2f0000" description="Misoundfxdmxmoduleswitch">
+      <VALUE val="0x1" name="0x1"/>
+      <VALUE val="0x0" name="0x0"/>
+    </KEY>
     <KEY name="MISOUND_HPH_CANALCALIB_ENABLE" id="0x260000" description="MisoundhphCanalCalibEnable">
       <VALUE val="0x1" name="0x1"/>
       <VALUE val="0x0" name="0x0"/>
@@ -680,6 +699,7 @@
     <KEY id="0xe4000000" name="HAPTICS_VI_Map"/>
     <KEY id="0xe6000000" name="USB_Vendor_Id"/>
     <KEY id="0x250000" name="SUPER_VOICE_VOLUME"/>
+    <KEY id="0x2d0000" name="SP_Profile"/>
   </CAL_KEY>
   <MODULE_TAGS>
     <TAG id="0xc0000004" name="device_hw_ep_rx" description="Hw EP Rx">
@@ -879,6 +899,9 @@
     <TAG id="0xc000037" name="misound hph canalcalib enable" description="misound hph canalcalib enable">
       <KEY id="0x260000" name="MISOUND_HPH_CANALCALIB_ENABLE"/>
     </TAG>
+    <TAG id="0xc00003c" name="misound fx dmx module switch" description="misound fx dmx module switch">
+      <KEY id="0x2f0000" name="MISOUND_FX_DMX_MODULE_SWITCH"/>
+    </TAG>
     <TAG id="0xc000004a" name="mfc_sidetone" description="SIDETONE MFC">
       <KEY id="0xa5000000" name="SamplingRate"/>
       <KEY id="0xa6000000" name="BitWidth"/>
@@ -886,6 +909,12 @@
     </TAG>
     <TAG id="0xc000004c" name="ultrasound_gain" description="Ultrasound Signal gain for different configuration">
       <KEY id="0xe7000000" name="UltrasoundGain"/>
+    </TAG>
+    <TAG id="0xc000004d" name="LHDC_config" description="LHDC pcm formart config">
+      <KEY id="0xa6000000" name="BitWidth"/>
+    </TAG>
+    <TAG id="0xc000004e" name="LHDC_config_dpp" description="LHDC pcm device_pp formart config">
+      <KEY id="0xa6000000" name="BitWidth"/>
     </TAG>
     <TAG id="0xc0000001" name="sh_ep"/>
     <TAG id="0xc0000002" name="stream_input_media_format"/>
@@ -933,5 +962,6 @@
     <TAG id="0xc000035" name="misound_hph_sdid_bandgains"/>
     <TAG id="0xc000036" name="spatial surround enable"/>
     <TAG id="0xc000038" name="misound_hph_canal_calib"/>
+    <TAG id="0xc000340" name="miec_speaker_direction"/>
   </MODULE_TAGS>
 </KEY_DEF>

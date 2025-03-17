@@ -132,7 +132,7 @@ HAL_DATASPACE_V0_JFIF = 146931712,  // ((STANDARD_BT601_625 | TRANSFER_SMPTE_170
         "HdrPhotographer": 3,
         "HwmfPhotographer": 1,
         "SupernightPhotographer": 4,
-        "RawSupernightPhotographer": [4,3],
+        "RawSupernightPhotographer": 4,
         "SrPhotographer": 4,
         "SrHdrPhotographer": 5,
         "FusionPhotographer": 3,

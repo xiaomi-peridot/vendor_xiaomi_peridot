@@ -1,31 +1,20 @@
 # xiaomi peridot setting file
 multiCameraLogicalXMLFile=peridot.xml
 enableGPURotation=TRUE
-enableTxtLogging=0
+
+#Resort the sensor data
+enableResortSensorData=TRUE
+
+enableTxtLogging=1
 offlineLogNumber=20
 offlineLoggerEnableBackupLog=FALSE
-logInfoMask=0
+logInfoMask=0x5009A
 logVerboseMask=0
-logConfigMask=0
-logWarningMask=0
-logDumpMask=0
-logCoreCfgMask=0
-logRequestMapping=0
-CamxLogCoreCfg=0
-chiLogInfoMask=0
-chiLogWarningMask=0
-chiLogCoreCfgMask=0
-chiLogConfigMask=0
-chiLogDumpMask=0
-chiLogVerboseMask=0
-chiLogDebugMask=0
-chiLogTraceMask=0
-raiserecoverysigabrt=FALSE
-SDK_LOG_LEVEL=4
-#systrace
-traceGroupsEnable=0
-enableAsciiLogging=0
-
+logConfigMask=0x1009A
+CamxLogCoreCfg=0x80
+chiLogInfoMask=0x3FFF
+chiLogWarningMask=0x1
+raiserecoverysigabrt=TRUE
 #Health Monitor
 enableHealthMonitor=FALSE
 #InSensorZoom
@@ -41,9 +30,6 @@ minDigitalZoomVideo=1.0
 maxDigitalZoomVideo=15.0
 # 720P@30 0x01 1080P@30 0x02 1080P@60 0x04 4K@30 0x08 4K@24 0x80
 videoSATSupportedRange=0x8B
-
-#MPMSizeDiffAllowedToGroup
-MPMSizeDiffAllowedToGroupOverride=2000000
 
 #SAT zoom animation params
 isSwitchAnimationSupported=TRUE
@@ -257,9 +243,6 @@ multiCameraExposureTimeMatch=TRUE
 #Enable earlyPCR
 numPCRsBeforeStreamOn=1
 
-# buffer Prealloc
-extraBufferAlloc=8
-
 #early init wide module
 isEarlysettingsEnable=TRUE
 #isActuatorEarlyInitEnable=TRUE
@@ -291,6 +274,5 @@ LoadTuningDataManagerAsync=TRUE
 #ois async init
 enableOISOptimization=TRUE
 
-enableInternalKMDRecovery=TRUE
-crcErrorDivisor=100
-
+extraBufferAlloc=9
+SDK_LOG_LEVEL=3

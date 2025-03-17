@@ -55,4 +55,9 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <version>11</version>
         <fqname>IDisplayConfig/default</fqname>
     </hal>
+    <hal format="aidl">
+        <name>vendor.xiaomi.hardware.display.mihwcextension</name>
+        <version>1</version>
+        <fqname>IMiHwcExtension/default</fqname>
+    </hal>
 </manifest>

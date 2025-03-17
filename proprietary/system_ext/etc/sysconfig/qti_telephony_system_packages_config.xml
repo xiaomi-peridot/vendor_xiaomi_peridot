@@ -34,6 +34,16 @@ Full documentation at frameworks/base/data/etc/preinstalled-packages-platform.xm
         <install-in user-type="FULL" />
     </install-in-user-type>
 
+    <!-- uim-remote-service -->
+
+    <install-in-user-type package="com.qualcomm.uimremoteclient">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qualcomm.uimremoteserver">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
     <!-- telephony-apps -->
 
     <install-in-user-type package="com.qti.telephonysettings">
@@ -44,11 +54,33 @@ Full documentation at frameworks/base/data/etc/preinstalled-packages-platform.xm
         <install-in user-type="SYSTEM" />
     </install-in-user-type>
 
+    <install-in-user-type package="com.qualcomm.atfwd2">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
     <install-in-user-type package="com.qualcomm.qti.callfeaturessetting">
         <install-in user-type="SYSTEM" />
     </install-in-user-type>
 
+    <install-in-user-type package="org.codeaurora.dialer">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+    </install-in-user-type>
+
     <install-in-user-type package="com.qualcomm.qti.confdialer">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qti.confuridialer">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qualcomm.qti.ridemodeaudio">
         <install-in user-type="SYSTEM" />
         <install-in user-type="FULL" />
         <install-in user-type="PROFILE" />
@@ -64,10 +96,7 @@ Full documentation at frameworks/base/data/etc/preinstalled-packages-platform.xm
 
     <install-in-user-type package="org.codeaurora.ims">
         <install-in user-type="SYSTEM" />
-    </install-in-user-type>
-
-    <install-in-user-type package="org.codeaurora.qti.nrNetworkSettingApp">
-        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
     </install-in-user-type>
 
     <install-in-user-type package="com.qualcomm.qti.telephonyservice">
@@ -80,10 +109,22 @@ Full documentation at frameworks/base/data/etc/preinstalled-packages-platform.xm
 
     <install-in-user-type package="com.qti.xdivert">
         <install-in user-type="SYSTEM" />
-        <install-in user-type="FULL" />
     </install-in-user-type>
 
     <install-in-user-type package="com.qti.phone">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qualcomm.qti.modemtestmode">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qualcomm.qti.ims">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qualcomm.qti.remoteSimlockAuth">
         <install-in user-type="SYSTEM" />
     </install-in-user-type>
 
@@ -93,19 +134,39 @@ Full documentation at frameworks/base/data/etc/preinstalled-packages-platform.xm
         <install-in user-type="SYSTEM" />
     </install-in-user-type>
 
+    <install-in-user-type package="com.qti.qualcomm.carriertest">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qualcomm.qti.uimlpatest">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
     <!-- telephony-noship -->
 
     <install-in-user-type package="com.qualcomm.qti.devicestatisticsservice">
         <install-in user-type="SYSTEM" />
     </install-in-user-type>
 
-    <install-in-user-type package="com.qualcomm.embms">
-        <install-in user-type="SYSTEM" />
-    </install-in-user-type>
-
     <install-in-user-type package="com.qualcomm.qti.euiccresource">
         <install-in user-type="SYSTEM" />
         <install-in user-type="FULL" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.android.MultiplePdpTest">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qualcomm.qti.lpa">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qualcomm.qti.uimGbaApp">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <install-in-user-type package="com.qualcomm.qti.uim">
+        <install-in user-type="SYSTEM" />
     </install-in-user-type>
 
  </config>

@@ -15,11 +15,23 @@ on late-fs
     chown system system /sys/bus/i2c/drivers/awinic_haptic/2-005a/custom_wave
     chmod 0666  /sys/bus/i2c/drivers/awinic_haptic/2-005a/custom_wave
 
+    # awinic_haptic for O16U
+    chown system system /sys/bus/i2c/drivers/awinic_haptic/7-005a/f0_save
+    chown system system /sys/bus/i2c/drivers/awinic_haptic/7-005a/osc_save
+    chown system system /sys/bus/i2c/drivers/awinic_haptic/7-005a/custom_wave
+    chmod 0666  /sys/bus/i2c/drivers/awinic_haptic/7-005a/custom_wave
+
     # SI Haptic 6887
     chown system system /sys/bus/i2c/drivers/sih_haptic_688X/2-006b/f0_save
     chown system system /sys/bus/i2c/drivers/sih_haptic_688X/2-006b/osc_save
     chown system system /sys/bus/i2c/drivers/sih_haptic_688X/2-006b/custom_wave
     chmod 0666  /sys/bus/i2c/drivers/sih_haptic_688X/2-006b/custom_wave
+
+    # SI Haptic 6887 for O16U
+    chown system system /sys/bus/i2c/drivers/sih_haptic_688X/7-006b/f0_save
+    chown system system /sys/bus/i2c/drivers/sih_haptic_688X/7-006b/osc_save
+    chown system system /sys/bus/i2c/drivers/sih_haptic_688X/7-006b/custom_wave
+    chmod 0666  /sys/bus/i2c/drivers/sih_haptic_688X/7-006b/custom_wave
 
     # cal-file directory
     mkdir /mnt/vendor/persist/haptics 0755 system system

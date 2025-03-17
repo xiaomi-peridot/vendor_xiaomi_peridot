@@ -409,7 +409,7 @@ wlan_tsf_latency_interval = 3000
 
 # Set ratemask
 #   Type: string
-wlan_set_ratemask = 0x0007C01F
+wlan_set_ratemask = 0x003FC0FF
 
 # Original link ratemask
 #   Type: string

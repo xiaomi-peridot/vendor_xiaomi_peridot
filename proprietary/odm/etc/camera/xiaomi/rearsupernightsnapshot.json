@@ -57,16 +57,6 @@
                 ]
             },
             {
-                "NodeName": "com.xiaomi.plugin.depurple",
-                "NodeInstance": "DepurpleInstance0",
-                "NodeProperty": [
-                    {
-                        "NodePropertyName": "NodeMask",
-                        "NodePropertyValue": 1
-                    }
-                ]
-            },
-            {
                 "NodeName": "com.xiaomi.plugin.portraitrepair",
                 "NodeInstance": "PortraitRepairInstance0",
                 "NodeProperty":[
@@ -176,21 +166,6 @@
                     "PortFormat": "YUV420_NV12",
                     "PortFollowType": 2,
                     "FollowPortId": 0
-                },                "DstPort": {
-                    "PortId": 0,
-                    "NodeInstance": "DepurpleInstance0",
-                    "PortFormat": "YUV420_NV12",
-                    "PortFollowType":2,
-                    "FollowPortId":0
-                }
-            },
-            {
-                "SrcPort": {
-                    "PortId": 0,
-                    "NodeInstance": "DepurpleInstance0",
-                    "PortFormat": "YUV420_NV12",
-                    "PortFollowType":2,
-                    "FollowPortId":0
                 },
                 "DstPort": {
                   "PortId": 0,

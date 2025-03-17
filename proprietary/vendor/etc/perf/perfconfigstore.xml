@@ -101,7 +101,7 @@ ________________________________________________________________________________
                 <!-- MIUI MOD: Touch_MIUITouchFrame -->
                 <Prop Name="vendor.perf.phr.enable" Value="1" Target="pineapple,cliffs"/>
                 <Prop Name="vendor.perf.phr.hr_min_rate" Value="0.5" Target="pineapple,cliffs"/>
-                <Prop Name="vendor.perf.pfar2.enable" Value="1" Target="pineapple,cliffs"/>
+		<Prop Name="vendor.perf.pfar2.enable" Value="1" Target="pineapple,cliffs"/>
                 <Prop Name="vendor.perf.pfar2.boost_level" Value="1" Target="pineapple,cliffs"/>
                 <Prop Name="vendor.perf.pfar2.disable_pl" Value="1" Target="pineapple,cliffs"/>
                 <Prop Name="vendor.perf.pfar2.disable_core_ctl" Value="1" Target="pineapple,cliffs"/>
@@ -130,7 +130,6 @@ ________________________________________________________________________________
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_limit"               Value="5"      Ram="3"        Target="cliffs"/>
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_limit"               Value="5"      Ram="4"        Target="cliffs"/>
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_enable"              Value="true"                  Target="cliffs"/>
-                <Prop Name="vendor.enable.vending_perfcore" Value="true" Target="cliffs"/>
 
     </PerfConfigs>
 </PerfConfigsStore>

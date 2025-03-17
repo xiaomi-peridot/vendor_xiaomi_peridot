@@ -122,7 +122,7 @@
         "data": "7"
       },
       "slave_config":{ "type": "int", "ver": "0",
-        "data": "0x0D"
+        "data": "0x68"
       },
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "1000"
@@ -244,17 +244,17 @@
       "y_dir_1_0":{ "type": "int", "ver": "2",
         "data": "0"
       },
-      "vcm_id_1":{ "type": "int", "ver": "1",
-        "data": "-1"
+      "vcm_id_1":{ "type": "int", "ver": "2",
+        "data": "0x14"
       },
-      "x_dir_0_1":{ "type": "int", "ver": "0",
+      "x_dir_0_1":{ "type": "int", "ver": "2",
         "data": "0"
       },
-      "y_dir_0_1":{ "type": "int", "ver": "1",
+      "y_dir_0_1":{ "type": "int", "ver": "2",
         "data": "-1"
       },
-      "x_dir_1_1":{ "type": "int", "ver": "0",
-        "data": "-1"
+      "x_dir_1_1":{ "type": "int", "ver": "2",
+        "data": "1"
       },
       "y_dir_1_1":{ "type": "int", "ver": "0",
         "data": "0"
@@ -305,19 +305,82 @@
         "data": "0"
       }
     },
-    ".chipdirection":{
+    ".vcmdirection_bmi":{
       "owner": "gt9786",
-      "x_dir_0":{ "type": "int", "ver": "0",
-        "data": "1"
+      "vcm_id_0":{ "type": "int", "ver": "1",
+        "data": "0x00"
       },
-      "y_dir_0":{ "type": "int", "ver": "0",
+      "x_dir_0_0":{ "type": "int", "ver": "1",
+        "data": "-1"
+      },
+      "y_dir_0_0":{ "type": "int", "ver": "1",
         "data": "0"
       },
-      "x_dir_1":{ "type": "int", "ver": "0",
+      "x_dir_1_0":{ "type": "int", "ver": "1",
         "data": "0"
       },
-      "y_dir_1":{ "type": "int", "ver": "0",
+      "y_dir_1_0":{ "type": "int", "ver": "1",
+        "data": "-1"
+      },
+      "vcm_id_1":{ "type": "int", "ver": "1",
+        "data": "0x14"
+      },
+      "x_dir_0_1":{ "type": "int", "ver": "1",
+        "data": "-1"
+      },
+      "y_dir_0_1":{ "type": "int", "ver": "1",
+        "data": "0"
+      },
+      "x_dir_1_1":{ "type": "int", "ver": "1",
+        "data": "0"
+      },
+      "y_dir_1_1":{ "type": "int", "ver": "1",
+        "data": "-1"
+      },
+      "vcm_id_2":{ "type": "int", "ver": "0",
+        "data": "-1"
+      },
+      "x_dir_0_2":{ "type": "int", "ver": "0",
+        "data": "-1"
+      },
+      "y_dir_0_2":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "x_dir_1_2":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "y_dir_1_2":{ "type": "int", "ver": "0",
+        "data": "-1"
+      },
+      "vcm_id_3":{ "type": "int", "ver": "0",
+        "data": "-1"
+      },
+      "x_dir_0_3":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "y_dir_0_3":{ "type": "int", "ver": "0",
         "data": "1"
+      },
+      "x_dir_1_3":{ "type": "int", "ver": "0",
+        "data": "-1"
+      },
+      "y_dir_1_3":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "vcm_id_4":{ "type": "int", "ver": "0",
+        "data": "-1"
+      },
+      "x_dir_0_4":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "y_dir_0_4":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "x_dir_1_4":{ "type": "int", "ver": "0",
+        "data": "-1"
+      },
+      "y_dir_1_4":{ "type": "int", "ver": "0",
+        "data": "0"
       }
     },
     ".params":{

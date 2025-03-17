@@ -15,3 +15,6 @@ service vendor.vppservice /vendor/bin/vppservice
 
     # start only when requested (uncomment below to disable service at boot)
     # disabled
+
+    # write pid to file for VideoRecovery
+    writepid /data/vendor/video/vppservicePid

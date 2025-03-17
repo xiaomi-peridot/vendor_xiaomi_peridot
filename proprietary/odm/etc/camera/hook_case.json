@@ -79,56 +79,56 @@
     [
         {
             "hook_name": "NCSSensorProbeHook",
-            "source_lib_name": "/vendor/lib64/hw/camera.qcom.so",
-            "target_lib_name": "/vendor/lib64/com.xiaomi.chi.hook.so",
+            "source_lib_name": "/odm/lib64/hw/camera.qcom.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.chi.hook.so",
             "source_function_address": "_ZN4CamX11NCSIntfQSEE11ProbeSensorENS_13NCSSensorTypeE",
             "target_function_address": "_Z18NCSSensorProbeHookPvi",
             "hook_type": 2
         },
         {
             "hook_name": "ProbeEEPROMHook",
-            "source_lib_name": "/vendor/lib64/hw/camera.qcom.so",
-            "target_lib_name": "/vendor/lib64/com.xiaomi.camx.hook.so",
+            "source_lib_name": "/odm/lib64/hw/camera.qcom.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.camx.hook.so",
             "source_function_address": "_ZN4CamX21ImageSensorModuleData11ProbeEEPROMEPNS_12HwSensorInfoEPKNS_16HwDeviceTypeInfoE",
             "target_function_address": "_ZN4CamX15ProbeEEPROMHookEPvPNS_12HwSensorInfoEPKNS_16HwDeviceTypeInfoE",
             "hook_type": 2
         },
         {
             "hook_name": "NCSProviderPostDataHook",
-            "source_lib_name": "/vendor/lib64/hw/camera.qcom.so",
-            "target_lib_name": "/vendor/lib64/com.xiaomi.camx.hook.so",
+            "source_lib_name": "/odm/lib64/hw/camera.qcom.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.camx.hook.so",
             "source_function_address": "_ZN4CamX11NCSProvider8PostDataEPNS_13NCSBufferInfoEPPh",
             "target_function_address": "_ZN4CamX23NCSProviderPostDataHookEPvPNS_13NCSBufferInfoEPPh",
             "hook_type": 1
         },
         {
             "hook_name" : "ReadEEPROMDeviceHook",
-            "source_lib_name": "/vendor/lib64/hw/camera.qcom.so",
-            "target_lib_name": "/vendor/lib64/com.xiaomi.camx.hook.so",
+            "source_lib_name": "/odm/lib64/hw/camera.qcom.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.camx.hook.so",
             "source_function_address" : "_ZN4CamX10EEPROMData16ReadEEPROMDeviceEv",
             "target_function_address" : "_ZN4CamX20ReadEEPROMDeviceHookEPv",
             "hook_type": 2
         },
         {
             "hook_name" : "ActuatorDataHook",
-            "source_lib_name": "/vendor/lib64/hw/camera.qcom.so",
-            "target_lib_name": "/vendor/lib64/com.xiaomi.camx.hook.so",
+            "source_lib_name": "/odm/lib64/hw/camera.qcom.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.camx.hook.so",
             "source_function_address" : "_ZN4CamX12ActuatorData16CreateI2CInfoCmdEP16CSLSensorI2CInfo",
             "target_function_address" : "_ZN4CamX16ActuatorDataHookEPvP16CSLSensorI2CInfo",
             "hook_type": 1
         },
         {
             "hook_name" : "CreateI2CInfoCmdHook",
-            "source_lib_name": "/vendor/lib64/hw/camera.qcom.so",
-            "target_lib_name": "/vendor/lib64/com.xiaomi.camx.hook.so",
+            "source_lib_name": "/odm/lib64/hw/camera.qcom.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.camx.hook.so",
             "source_function_address" : "_ZN4CamX10EEPROMData16CreateI2CInfoCmdEP16CSLSensorI2CInfot",
             "target_function_address" : "_ZN4CamX20CreateI2CInfoCmdHookEPvP16CSLSensorI2CInfot",
             "hook_type": 2
         },
         {
             "hook_name" : "CheckForRecoveryHook",
-            "source_lib_name": "/vendor/lib64/hw/com.qti.chi.override.so",
-            "target_lib_name": "/vendor/lib64/com.xiaomi.chi.hook.so",
+            "source_lib_name": "/odm/lib64/hw/com.qti.chi.override.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.chi.hook.so",
             "source_function_address" : "_ZN15Feature2Wrapper16CheckForRecoveryEj",
             "target_function_address" : "_Z20CheckForRecoveryHookPvj",
             "hook_type": 1

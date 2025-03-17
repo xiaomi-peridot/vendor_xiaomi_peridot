@@ -30,4 +30,5 @@
     <device name="qcom-hv-haptics"/>
     <device name="aw8624_haptic"/>
     <device name="awinic_haptic"/>
+    <device name="si_haptic"/>
 </devices>
