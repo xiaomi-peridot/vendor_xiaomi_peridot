@@ -1043,10 +1043,73 @@ prebuilt_etc_xml {
 }
 
 install_symlink {
+	name: "libSnpeHtpV75Skel_libSnpeHtpV75Skel_symlink32",
+	soc_specific: true,
+	installed_location: "lib/rfsa/adsp/libSnpeHtpV75Skel.so",
+	symlink_target: "/odm/lib/rfsa/adsp/libSnpeHtpV75Skel.so",
+}
+
+install_symlink {
 	name: "aon_front_1_aon_front_1_symlink64",
 	soc_specific: true,
 	installed_location: "lib64/camera/aon_front_1.pb",
 	symlink_target: "/odm/lib64/camera/aon_front_1.pb",
+}
+
+install_symlink {
+	name: "bitmlconfig_bitmlconfig_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/camera/bitmlconfig.bin",
+	symlink_target: "/odm/lib64/camera/bitmlconfig.bin",
+}
+
+install_symlink {
+	name: "bitmlconfig_sm8635_bitmlconfig_sm8635_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/camera/bitmlconfig_sm8635.bin",
+	symlink_target: "/odm/lib64/camera/bitmlconfig_sm8635.bin",
+}
+
+install_symlink {
+	name: "libapn_dsp_skel_libapn_dsp_skel_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/rfs/dsp/libapn_dsp_skel.so",
+	symlink_target: "/odm/lib64/rfs/dsp/libapn_dsp_skel.so",
+}
+
+install_symlink {
+	name: "libbitml_nsp_75na_skel_libbitml_nsp_75na_skel_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/rfs/dsp/libbitml_nsp_75na_skel.so",
+	symlink_target: "/odm/lib64/rfs/dsp/libbitml_nsp_75na_skel.so",
+}
+
+install_symlink {
+	name: "libhdr_skel_libhdr_skel_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/rfs/dsp/libhdr_skel.so",
+	symlink_target: "/odm/lib64/rfs/dsp/libhdr_skel.so",
+}
+
+install_symlink {
+	name: "libqsegnetengine_dsp_skel_libqsegnetengine_dsp_skel_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/rfs/dsp/libqsegnetengine_dsp_skel.so",
+	symlink_target: "/odm/lib64/rfs/dsp/libqsegnetengine_dsp_skel.so",
+}
+
+install_symlink {
+	name: "libimscamera_jni_libimscamera_jni_symlink64",
+	system_ext_specific: true,
+	installed_location: "priv-app/ims/lib/arm64/libimscamera_jni.so",
+	symlink_target: "/system_ext/lib64/libimscamera_jni.so",
+}
+
+install_symlink {
+	name: "libimsmedia_jni_libimsmedia_jni_symlink64",
+	system_ext_specific: true,
+	installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
+	symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
 }
 
 install_symlink {

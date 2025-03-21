@@ -1396,6 +1396,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk_platform.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/vendor.xiaomi.hardware.bgservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.bgservice@1.0.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib/rfsa/adsp/libSnpeHtpV73Skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libSnpeHtpV73Skel.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/rfs/dsp/libbitml_nsp_73nb_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfs/dsp/libbitml_nsp_73nb_skel.so \
     vendor/xiaomi/peridot/proprietary/odm/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/etc/dolby_vision.cfg \
     vendor/xiaomi/peridot/proprietary/odm/vendor/persist/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/persist/display/dolby_vision.cfg \
     vendor/xiaomi/peridot/proprietary/product/etc/displayconfig/display_id_4630947195234848131.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630947195234848131.xml \
@@ -2756,7 +2758,16 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.sensor.citsensorservice.aidl.xml
 
 PRODUCT_PACKAGES += \
+    libSnpeHtpV75Skel_libSnpeHtpV75Skel_symlink32 \
     aon_front_1_aon_front_1_symlink64 \
+    bitmlconfig_bitmlconfig_symlink64 \
+    bitmlconfig_sm8635_bitmlconfig_sm8635_symlink64 \
+    libapn_dsp_skel_libapn_dsp_skel_symlink64 \
+    libbitml_nsp_75na_skel_libbitml_nsp_75na_skel_symlink64 \
+    libhdr_skel_libhdr_skel_symlink64 \
+    libqsegnetengine_dsp_skel_libqsegnetengine_dsp_skel_symlink64 \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64 \
     libEGL_adreno_libEGL_adreno_symlink64 \
     libGLESv2_adreno_libGLESv2_adreno_symlink64 \
     libq3dtools_adreno_libq3dtools_adreno_symlink64
