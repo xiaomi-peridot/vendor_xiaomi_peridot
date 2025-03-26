@@ -290,6 +290,13 @@ dex_import {
 }
 
 dex_import {
+	name: "camerax-vendor-extensions",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/camerax-vendor-extensions.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "qcrilhook",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
