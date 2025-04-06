@@ -1374,6 +1374,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libubifocus.so:$(TARGET_COPY_OUT_ODM)/lib64/libubifocus.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libvideoml.so:$(TARGET_COPY_OUT_ODM)/lib64/libvideoml.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libvideomode.so:$(TARGET_COPY_OUT_ODM)/lib64/libvideomode.so \
+    vendor/xiaomi/peridot/proprietary/odm/lib64/libvoipspacespeech.so:$(TARGET_COPY_OUT_ODM)/lib64/libvoipspacespeech.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libwa_widelens_undistort.so:$(TARGET_COPY_OUT_ODM)/lib64/libwa_widelens_undistort.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libwrapper_dlengine.so:$(TARGET_COPY_OUT_ODM)/lib64/libwrapper_dlengine.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvkeybox.so \
