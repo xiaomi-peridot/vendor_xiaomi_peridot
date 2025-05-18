@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/backend_conf.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf.xml \
+    vendor/xiaomi/peridot/proprietary/odm/etc/backend_conf_fs.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf_fs.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_ODM)/etc/camera/102_SummerDay.png \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/103_Fantasy.png \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_ODM)/etc/camera/104_Meet.png \
@@ -396,6 +397,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
+    vendor/xiaomi/peridot/proprietary/odm/etc/init/init.foursemi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.foursemi.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/nqnfc-service-nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/nqnfc-service-nxp.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay-service.rc \
