@@ -1253,6 +1253,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/gen71100_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_gmu.bin \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/gen71100_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_sqe.fw \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin \
+    vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
+    vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
+    vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
+    vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libPipeline_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libPipeline_plugin.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libVkLayer_ADRENO_qprofiler.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/gpu++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gpu++.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/audio.primary.pineapple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.pineapple.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/gyro_fusion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gyro_fusion_interface.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/sound_trigger.primary.pineapple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.pineapple.so \
@@ -1262,6 +1269,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/lib_bt_lhdc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_lhdc.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/lib_misound_asc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_misound_asc.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadm.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/libadreno_compiler_cl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_compiler_cl.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_compress_plugin.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_mixer_plugin.so \
@@ -1277,6 +1285,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libaudiocloudctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocloudctrl.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libcustomva_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustomva_intf.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/libgpumemtracer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpumemtracer.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/libgpuservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpuservice.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libhotword_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhotword_intf.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libkaraokepal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkaraokepal.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-ar_util.so \
@@ -1290,7 +1300,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.pal@1.0-impl.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.qti.hardware.pal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.pal@1.0.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbadreno_utils.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbgsl.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbllvm-glnext.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbllvm-qgl.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
@@ -2526,6 +2540,7 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
+    com.qualcomm.qti.gpudrivers.pineapple.api34 \
     uimgbaservice \
     AtFwd2 \
     ImsRcsService \
