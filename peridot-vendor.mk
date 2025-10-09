@@ -1574,7 +1574,7 @@ PRODUCT_PACKAGES += \
     libskewknob \
     libslimclient \
     libsmemlog \
-    libsn100u_fw \
+    libsn220u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsns_device_mode_stub \
