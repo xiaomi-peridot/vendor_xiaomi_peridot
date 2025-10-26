@@ -2448,8 +2448,6 @@ PRODUCT_PACKAGES += \
     deviceinfo-saidl.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
-    manifest_non_qmaa.xml \
-    manifest_non_qmaa_extn.xml \
     mwqem-saidl.xml \
     qcrilhook-saidl.xml \
     qesdk-manager.xml \
