@@ -31,10 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_static.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_configuration.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_default_stream_volumes.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/backend_conf.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_ODM)/etc/camera/GpuKernelRepo.pb \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/af_class_all.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/af_class_all.dlc \
