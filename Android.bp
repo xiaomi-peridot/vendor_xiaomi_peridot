@@ -31550,7 +31550,7 @@ cc_prebuilt_library_shared {
                 "libmialgoengine",
                 "libsync",
                 "libutils",
-                "libui",
+                "libui-v34",
                 "libhidlbase",
                 "libprocessgroup",
                 "libcom.xiaomi.attribute",
